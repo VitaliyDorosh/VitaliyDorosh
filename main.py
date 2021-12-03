@@ -15,8 +15,9 @@ def sun_angle(time, sunrise=SUNRISE, sunset=SUNSET):
 
 
 if __name__ == "__main__":
- x = '17:59'
+ x = input("Please enter time in format HH:MM:\n")
+
  output = sun_angle(x)
 
- print(output)
+ print(f'In {x} sun angle will be {output}\n')
 
